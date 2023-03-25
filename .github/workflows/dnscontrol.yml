@@ -33,7 +33,7 @@ jobs:
     if: github.event_name == 'push'
     needs: [preview]
     runs-on: ubuntu-latest
-    # environment: dns
+    environment: dns
     concurrency:
       group: dns-push
       cancel-in-progress: true
