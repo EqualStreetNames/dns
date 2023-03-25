@@ -24,6 +24,7 @@ jobs:
       - name: DNSControl preview
         uses: koenrh/dnscontrol-action@v3
         env:
+          TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
         with:
           args: preview
@@ -41,6 +42,7 @@ jobs:
       - name: DNSControl push
         uses: koenrh/dnscontrol-action@v3
         env:
+          TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
         with:
           args: push
