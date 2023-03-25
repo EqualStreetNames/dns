@@ -1,0 +1,18 @@
+{
+  "bind": {
+    "TYPE": "BIND"
+  },
+  "cloudflare": {
+    "TYPE": "CLOUDFLAREAPI",
+    "accountid": "cae752daed00c23d702e61df457739d9",
+    "apitoken": "$TOKEN_CLOUDFLARE"
+  },
+  "digitalocean": {
+    "TYPE": "DIGITALOCEAN",
+    "token": "$TOKEN_DIGITALOCEAN"
+  },
+  "transip": {
+    "TYPE": "TRANSIP",
+    "AccessToken": "$TOKEN_TRANSIP"
+  }
+}
