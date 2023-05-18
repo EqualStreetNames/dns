@@ -117,6 +117,7 @@ D(
   CNAME("vienna", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("warsaw", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("wiesbaden", "equalstreetnames.github.io.", CF_PROXY_ON),
+  CNAME("wroclaw", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("zurich", "equalstreetnames.github.io.", CF_PROXY_ON),
 
   MX("@", 10, "spamrelay.zxcs.nl."),
