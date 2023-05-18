@@ -64,6 +64,7 @@ D(
   CNAME("namur", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("nivelles", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("rixensart", "equalstreetnames.github.io.", TTL(43200)),
+  CNAME("roeselare", "equalstreetnames.github.io.", TTL(43200)),
 
   TXT("_github-challenge-equalstreetnames", "1dee9c23a4"),
   TXT("_updown.status", "updown-page=p/11462"),
