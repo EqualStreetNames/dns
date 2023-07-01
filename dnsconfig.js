@@ -30,6 +30,7 @@ D(
   CNAME("cape-town", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("chester-le-street", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("minsk", "equalstreetnames.github.io.", TTL(43200)),
+  CNAME("fremantle", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("sanfrancisco", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("sanpablo", "equalstreetnames.github.io.", TTL(43200)),
 
