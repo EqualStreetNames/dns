@@ -87,6 +87,7 @@ D(
   CNAME("www", "cname.vercel-dns.com.", CF_PROXY_OFF),
 
   CNAME("assen", "equalstreetnames.github.io.", CF_PROXY_ON),
+  CNAME("athens", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("basel", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("belgrade", "naziviulica.openstreetmap.rs.opts-uri.redirect.center.", CF_PROXY_OFF),
   CNAME("bern", "equalstreetnames.github.io.", CF_PROXY_ON),
