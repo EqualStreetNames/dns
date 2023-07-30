@@ -109,6 +109,7 @@ D(
   CNAME("lausanne", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("leiden", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("leipzig", "equalstreetnames.github.io.", CF_PROXY_ON),
+  CNAME("lisbon", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("luxembourg", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("madrid", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("mainz", "equalstreetnames.github.io.", CF_PROXY_ON),
