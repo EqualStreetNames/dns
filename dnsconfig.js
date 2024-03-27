@@ -59,6 +59,7 @@ D(
   CNAME("braine-lalleud", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("brugge", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("gent", "equalstreetnames.github.io.", TTL(43200)),
+  CNAME("halle", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("leuven", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("liege", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("mons", "equalstreetnames.github.io.", TTL(43200)),
