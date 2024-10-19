@@ -133,7 +133,7 @@ D(
 
   TXT("_dmarc", "v=DMARC1; p=none; sp=none;"),
   TXT("@", "v=spf1 a mx ip4:185.104.29.8 ip6:2a06:2ec0:1:0:0:0:0:80 include:filter-out.zxcs.nl ~all"),
-  TXT("_github-challenge-equalstreetnames-org", "d77ce5af8b"),
+  TXT("_github-challenge-equalstreetnames-org", "7d8fa683fc47269ff4beb668e2eb73"),
   TXT("_github-pages-challenge-equalstreetnames","7d8fa683fc47269ff4beb668e2eb73"),
   TXT("x._domainkey", "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA123EIufplB5azCrEZnUzt6nj2coxgr7db518feZYlUK9VBAe6GIkU9Vl7A+gbY5XSBLlLO17eFv1rdUNNSZtwlsrvJEyV/aA+JDyOaES7ZE0GVbPblYa9uzzP0+WyYDbLm1Ax7lcDdZrqapgTqt4YrTpIXUCcr63XWQdz8ffmERAyQEuoH8NyuI/IjYVBQTwI NXHfXTkSpaaZ5y7+Rt3PEdZiC/TbX9y46IsZoyFtEtdbi2KiugN47rSjcGl5aUrvWQf5VjVTVq/e5BjE+PmDoHAK7XH/HspsUN/aLN76557sk9C9phCSXKFvnvr4nJmzJzK584Iv9YwmqEpU3wyOwIDAQAB")
 );
