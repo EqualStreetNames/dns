@@ -33,8 +33,7 @@ D(
   CNAME("sanfrancisco", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("sanpablo", "equalstreetnames.github.io.", TTL(43200)),
 
-  TXT("_github-challenge-equalstreetnames", "149f242d22"),
-  TXT("_github-pages-challenge-equalstreetnames", "6486bb1c94f8f81a2c71bda12021e1")
+  TXT("_github-pages-challenge-EqualStreetNames", "6486bb1c94f8f81a2c71bda12021e1")
 );
 
 D(
@@ -67,9 +66,8 @@ D(
   CNAME("rixensart", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("roeselare", "equalstreetnames.github.io.", TTL(43200)),
 
-  TXT("_github-challenge-equalstreetnames", "1dee9c23a4"),
   TXT("_updown.status", "updown-page=p/11462"),
-  TXT("_github-pages-challenge-equalstreetnames", "735ed49343d7851640ac2279c03722")
+  TXT("_github-pages-challenge-EqualStreetNames", "735ed49343d7851640ac2279c03722")
 );
 
 D(
@@ -133,8 +131,7 @@ D(
 
   TXT("_dmarc", "v=DMARC1; p=none; sp=none;"),
   TXT("@", "v=spf1 a mx ip4:185.104.29.8 ip6:2a06:2ec0:1:0:0:0:0:80 include:filter-out.zxcs.nl ~all"),
-  TXT("_github-challenge-equalstreetnames-org", "7d8fa683fc47269ff4beb668e2eb73"),
-  TXT("_github-pages-challenge-equalstreetnames","7d8fa683fc47269ff4beb668e2eb73"),
+  TXT("_github-pages-challenge-EqualStreetNames","7d8fa683fc47269ff4beb668e2eb73"),
   TXT("x._domainkey", "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA123EIufplB5azCrEZnUzt6nj2coxgr7db518feZYlUK9VBAe6GIkU9Vl7A+gbY5XSBLlLO17eFv1rdUNNSZtwlsrvJEyV/aA+JDyOaES7ZE0GVbPblYa9uzzP0+WyYDbLm1Ax7lcDdZrqapgTqt4YrTpIXUCcr63XWQdz8ffmERAyQEuoH8NyuI/IjYVBQTwI NXHfXTkSpaaZ5y7+Rt3PEdZiC/TbX9y46IsZoyFtEtdbi2KiugN47rSjcGl5aUrvWQf5VjVTVq/e5BjE+PmDoHAK7XH/HspsUN/aLN76557sk9C9phCSXKFvnvr4nJmzJzK584Iv9YwmqEpU3wyOwIDAQAB")
 );
 
@@ -153,6 +150,5 @@ D(
 
   CNAME("www", "equalstreetnames.brussels."),
 
-  TXT("_github-challenge-equalstreetnames", "e1ede02f4f"),
-  TXT("_github-pages-challenge-equalstreetnames", "e0ed8d58d1815c98001eecf306b36a")
+  TXT("_github-pages-challenge-EqualStreetNames", "e0ed8d58d1815c98001eecf306b36a")
 );
