@@ -20,7 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        provider: [cloudflare, digitalocean]
+        # provider: [cloudflare, digitalocean]
+        provider: [cloudflare]
     steps:
       - uses: actions/checkout@v4
       - uses: gacts/install-dnscontrol@v1
