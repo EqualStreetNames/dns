@@ -20,8 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        # provider: [cloudflare, digitalocean, transip]
-        provider: [cloudflare, transip]
+        provider: [cloudflare, digitalocean]
     steps:
       - uses: actions/checkout@v4
       - uses: gacts/install-dnscontrol@v1
@@ -30,7 +29,6 @@ jobs:
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
-          TOKEN_TRANSIP: ${{ secrets.TOKEN_TRANSIP }}
 
   preview:
     needs: [check, check-creds]
@@ -43,7 +41,6 @@ jobs:
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
-          TOKEN_TRANSIP: ${{ secrets.TOKEN_TRANSIP }}
 
   push:
     if: github.event_name == 'push'
@@ -61,4 +58,3 @@ jobs:
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
-          TOKEN_TRANSIP: ${{ secrets.TOKEN_TRANSIP }}

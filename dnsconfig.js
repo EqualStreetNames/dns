@@ -3,7 +3,6 @@
 var REG_NONE = NewRegistrar("none"); // No registrar.
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 var DSP_DIGITALOCEAN = NewDnsProvider("digitalocean");
-var DSP_TRANSIP = NewDnsProvider("transip");
 
 // Meta settings for individual records.
 var CF_PROXY_OFF = {"cloudflare_proxy": "off"};   // Proxy disabled.
