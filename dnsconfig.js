@@ -28,6 +28,7 @@ D(
 
   CNAME("status", "docker.osm.be.", TTL(43200)),
 
+  CNAME("bangkok", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("cape-town", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("chester-le-street", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("minsk", "equalstreetnames.github.io.", TTL(43200)),
