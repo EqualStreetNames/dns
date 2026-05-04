@@ -107,6 +107,7 @@ D(
   CNAME("frankfurt", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("freiburg-im-breisgau", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("freising", "equalstreetnames.github.io.", CF_PROXY_ON),
+  CNAME("fuerth", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("groningen", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("halle-saale", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("hannover", "equalstreetnames.github.io.", CF_PROXY_ON),
