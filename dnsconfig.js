@@ -2,7 +2,6 @@
 
 var REG_NONE = NewRegistrar("none"); // No registrar.
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
-var DSP_DIGITALOCEAN = NewDnsProvider("digitalocean");
 var DSP_INFOMANIAK = NewDnsProvider("infomaniak");
 
 // Meta settings for individual records:
@@ -29,7 +28,7 @@ D(
   "equalstreetnames.org",
 
   REG_NONE,
-  DnsProvider(DSP_DIGITALOCEAN),
+  DnsProvider(DSP_INFOMANIAK),
 
   DefaultTTL(3600),
 
@@ -172,7 +171,7 @@ D(
   "equalstreetnames.brussels",
 
   REG_NONE,
-  DnsProvider(DSP_DIGITALOCEAN),
+  DnsProvider(DSP_INFOMANIAK),
 
   DefaultTTL(3600),
 

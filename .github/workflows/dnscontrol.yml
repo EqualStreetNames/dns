@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        provider: [cloudflare, digitalocean]
+        provider: [cloudflare]
     steps:
       - uses: actions/checkout@v7
       - uses: gacts/install-dnscontrol@v1
@@ -28,7 +28,6 @@ jobs:
         run: dnscontrol check-creds ${{ matrix.provider }}
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
-          TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
           TOKEN_INFOMANIAK: ${{ secrets.TOKEN_INFOMANIAK }}
 
   preview:
@@ -41,7 +40,6 @@ jobs:
         run: dnscontrol preview
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
-          TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
           TOKEN_INFOMANIAK: ${{ secrets.TOKEN_INFOMANIAK }}
 
   push:
@@ -59,5 +57,4 @@ jobs:
         run: dnscontrol push
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
-          TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
           TOKEN_INFOMANIAK: ${{ secrets.TOKEN_INFOMANIAK }}
