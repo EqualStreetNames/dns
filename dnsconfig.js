@@ -5,10 +5,23 @@ var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 var DSP_DIGITALOCEAN = NewDnsProvider("digitalocean");
 var DSP_INFOMANIAK = NewDnsProvider("infomaniak");
 
-// Meta settings for individual records.
+// Meta settings for individual records:
+
 var CF_PROXY_OFF = {"cloudflare_proxy": "off"};   // Proxy disabled.
 var CF_PROXY_ON = {"cloudflare_proxy": "on"};     // Proxy enabled.
 var CF_PROXY_FULL = {"cloudflare_proxy": "full"}; // Proxy+Railgun enabled.
+
+// Email settings:
+
+var DMARC_REJECT = DMARC_BUILDER({
+    policy: "reject"
+});
+var SPF_REJECT = SPF_BUILDER({
+    parts: [
+        "v=spf1",
+        "-all"
+    ]
+});
 
 // Domains:
 
@@ -47,6 +60,9 @@ D(
   DnsProvider(DSP_INFOMANIAK),
 
   DefaultTTL(3600),
+
+  DMARC_REJECT,
+  SPF_REJECT,
 
   A("@", "185.199.108.153"), // GitHub Pages
   A("@", "185.199.109.153"), // GitHub Pages
