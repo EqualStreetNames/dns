@@ -32,6 +32,9 @@ D(
 
   DefaultTTL(3600),
 
+  DMARC_REJECT,
+  SPF_REJECT,
+
   A("@", "185.199.108.153"), // GitHub Pages
   A("@", "185.199.109.153"), // GitHub Pages
   A("@", "185.199.110.153"), // GitHub Pages
@@ -174,6 +177,9 @@ D(
   DnsProvider(DSP_INFOMANIAK),
 
   DefaultTTL(3600),
+
+  DMARC_REJECT,
+  SPF_REJECT,
 
   A("@", "185.199.108.153"), // GitHub Pages
   A("@", "185.199.109.153"), // GitHub Pages
