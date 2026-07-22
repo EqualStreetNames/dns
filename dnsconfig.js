@@ -68,14 +68,11 @@ D(
   DMARC_REJECT,
   SPF_REJECT,
 
-  A("@", "185.199.108.153"), // GitHub Pages
-  A("@", "185.199.109.153"), // GitHub Pages
-  A("@", "185.199.110.153"), // GitHub Pages
-  A("@", "185.199.111.153"), // GitHub Pages
-  AAAA("@", "2606:50c0:8000::153"), // GitHub Pages
-  AAAA("@", "2606:50c0:8001::153"), // GitHub Pages
-  AAAA("@", "2606:50c0:8002::153"), // GitHub Pages
-  AAAA("@", "2606:50c0:8003::153"), // GitHub Pages
+  // Infomaniak redirect
+  A("@", "84.16.66.164"),
+  AAAA("@", "2001:1600:0:aaaa::2:14"),
+  TXT("@", "1|equalstreetnames.org"),
+  TXT("@", "p|https"),
 
   CNAME("www", "equalstreetnames.be."),
 
