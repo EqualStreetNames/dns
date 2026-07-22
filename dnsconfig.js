@@ -76,6 +76,12 @@ D(
   TXT("@", "1|equalstreetnames.org"),
   TXT("@", "p|https"),
 
+  // Infomaniak redirect
+  A("brussels", "84.16.66.164"),
+  AAAA("brussels", "2001:1600:0:aaaa::2:14"),
+  TXT("brussels", "1|equalstreetnames.brussels"),
+  TXT("brussels", "p|https"),
+
   CNAME("www", "equalstreetnames.be."),
 
   CNAME("status", "docker.osm.be.", TTL(43200)),
