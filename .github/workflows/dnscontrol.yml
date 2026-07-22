@@ -29,6 +29,7 @@ jobs:
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
+          TOKEN_INFOMANIAK: ${{ secrets.TOKEN_INFOMANIAK }}
 
   preview:
     needs: [check, check-creds]
@@ -41,6 +42,7 @@ jobs:
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
+          TOKEN_INFOMANIAK: ${{ secrets.TOKEN_INFOMANIAK }}
 
   push:
     if: github.event_name == 'push'
@@ -58,3 +60,4 @@ jobs:
         env:
           TOKEN_CLOUDFLARE: ${{ secrets.TOKEN_CLOUDFLARE }}
           TOKEN_DIGITALOCEAN: ${{ secrets.TOKEN_DIGITALOCEAN }}
+          TOKEN_INFOMANIAK: ${{ secrets.TOKEN_INFOMANIAK }}
