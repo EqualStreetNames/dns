@@ -46,7 +46,8 @@ D(
 
   CNAME("www", "equalstreetnames.org."),
 
-  CNAME("status", "docker.osm.be.", TTL(43200)),
+  CNAME("status", "page.updown.io."),
+  TXT("_updown.status", "updown-page=p/2hqma"),
 
   CNAME("bangkok", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("cape-town", "equalstreetnames.github.io.", TTL(43200)),
@@ -84,7 +85,8 @@ D(
 
   CNAME("www", "equalstreetnames.be."),
 
-  CNAME("status", "docker.osm.be.", TTL(43200)),
+  CNAME("status", "page.updown.io."),
+  TXT("_updown.status", "updown-page=p/2hqma"),
 
   CNAME("antwerpen", "equalstreetnames.github.io.", TTL(43200)),
   CNAME("braine-lalleud", "equalstreetnames.github.io.", TTL(43200)),
@@ -116,7 +118,8 @@ D(
   CNAME("statistics", "cname.vercel-dns.com.", CF_PROXY_OFF),
   CNAME("www", "cname.vercel-dns.com.", CF_PROXY_OFF),
 
-  CNAME("status", "docker.osm.be.", TTL(43200)),
+  CNAME("status", "page.updown.io."),
+  TXT("_updown.status", "updown-page=p/2hqma"),
 
   CNAME("assen", "equalstreetnames.github.io.", CF_PROXY_ON),
   CNAME("athens", "equalstreetnames.github.io.", CF_PROXY_ON),
@@ -198,5 +201,8 @@ D(
 
   CNAME("www", "equalstreetnames.brussels."),
 
+  CNAME("status", "page.updown.io."),
+  TXT("_updown.status", "updown-page=p/2hqma"),
+    
   TXT("_github-pages-challenge-EqualStreetNames", "e0ed8d58d1815c98001eecf306b36a")
 );
